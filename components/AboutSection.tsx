@@ -11,8 +11,9 @@ const skills = [
     { skill: "Next.js" },
     { skill: "Tailwind CSS" },
     { skill: "Git" },
-    { skill: "GitHub" },
-    { skill: "Jupyter Notebooks" },
+    { skill: "C" },
+    { skill: "Flutter" },
+    { skill: "Altium" }
 ]
 
 const AboutSection = () => {
@@ -34,30 +35,27 @@ const AboutSection = () => {
                             <span className="font-bold">{"creative"}</span>,
                             <span className="font-bold">{" diligent"}</span>, and
                             <span className="font-bold">{" driven"}</span> electrical and computer engineering student
-                            based in Brisbane, QLD.
-                        </p>
-                        <br />
-                        <p>
-                            I am currently studying at The University of Queensland located in St Lucia and am
+                            at The University of Queensland located in St Lucia and am
                             in my final year of completing my BE/ME.
                         </p>
                         <br />
                         <p>
-                            I have a wide range of hobbies and passions, from playing football
-                            and traveling, to running my own graphic design business.
-                            I am always seeking new experiences and love to keep myself
-                            engaged and learning new things.
+                            I have worked within a wide range of industries including automation,
+                            aerospace and software development. I like exploring the world of entrepreneurship
+                            and have been involved in UQ Ventures programs such as Startup Adventures,
+                            Industry Challenges and the Curiosity Program.
                         </p>
                         <br />
                         <p>
-                            I believe that you should{" "}
-                            <span className="font-bold text-teal-500">
-                                never stop growing
-                            </span>{" "}
-                            and that&#39;s what I strive to do, I have a passion for
-                            technology and a desire to always push the limits of what is
-                            possible. I am excited to see where my career takes me and am
-                            always open to new opportunities. 🙂
+                            Through several volunteer roles and internships, I have had the chance to
+                            develop skills including graphic design, UX/UI Design, video editing and social media
+                            marketing. In my free time I enjoy playing football, running and catching up with friends.
+                        </p>
+                        <br />
+                        <p>
+                            I have a strong passion for technology and am always looking
+                            for opportunities to learn, grow and and gain valuable experience
+                            as an aspiring engineer. 🙂
                         </p>
                     </div>
                     <div className="text-center md:w-1/2 md:text-left">
@@ -74,13 +72,13 @@ const AboutSection = () => {
                                 )
                             })}
                         </div>
-                        <Image
+                        {/* <Image
                             src="/hero-image.png"
                             alt=""
                             width={325}
                             height={325}
                             className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>

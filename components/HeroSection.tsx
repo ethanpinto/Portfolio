@@ -24,11 +24,10 @@ const HeroSection = () => {
                         <span className="font-semibold text-teal-600">
                             Electrical and Computer Engineer{" "}
                         </span>
-                        based in Brisbane, QLD. Working towards creating software that
-                        makes life easier and more meaningful.
+                        based in Brisbane, Australia. I love building things and solving problems.
                     </p>
                     <Link
-                        to="projects"
+                        to="contact"
                         className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
                         activeClass="active"
                         spy={true}
@@ -36,10 +35,11 @@ const HeroSection = () => {
                         offset={-100}
                         duration={500}
                     >
-                        Projects
+                        Contact Me!
                     </Link>
                 </div>
             </div>
+            <div className="mt-10"></div>
             <div className="flex flex-row items-center text-center justify-center ">
                 <Link
                     to="about"
