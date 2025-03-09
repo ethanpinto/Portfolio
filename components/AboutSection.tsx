@@ -49,12 +49,12 @@ const AboutSection = () => {
                         <p>
                             Through several volunteer roles and internships, I have had the chance to
                             develop skills including graphic design, UX/UI Design, video editing and social media
-                            marketing. In my free time I enjoy playing football, running and catching up with friends.
+                            marketing. In my free time I enjoy running, playing football, and catching up with friends.
                         </p>
                         <br />
                         <p>
                             I have a strong passion for technology and am always looking
-                            for opportunities to learn, grow and and gain valuable experience
+                            for opportunities to learn, grow and gain valuable experience
                             as an aspiring engineer. 🙂
                         </p>
                     </div>
